@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+fieldset, .message {
+    border: 1px solid;
+}
+
+fieldset {
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: lightblue;
+}
+
+legend {
+    font-weight: bold;
+    background-color: navy;
+    color: white;
+    padding: 5px;
+}
+
+label, input {
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    text-align: right;
+    min-width: 125px;
+}
+
+input {
+    margin: 0;
+}
+
+button {
+    margin-left: 125px;
+    float: right;
+}
+
+.message {
+    background: lightgrey;
+    border-color: darkgrey;
+    padding: 10px;
+}
+
+.message.message-success {
+    background: lightgreen;
+    border-color: darkgreen;
+}
+
+.message.message-error {
+    background: orange;
+    border-color: darkred;
+}
+
+table {
+    width: 100vw;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid;
+}
+
+th, td {
+    text-align: left;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    background-color: navy;
+    color: white;
+}
+
+td {
+    background-color: lightblue;
+}
+
+.contact.contact-new td {
+    background-color: aqua;
+}

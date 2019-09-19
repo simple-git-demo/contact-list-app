@@ -1,0 +1,15 @@
+{
+    "name": "simple-git-demo/contact-list-app",
+    "description": "Simple contact list for git demo.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "ContactListApp\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.2",
+        "ext-json": "*",
+        "webmozart/assert": "^1.5"
+    }
+}
