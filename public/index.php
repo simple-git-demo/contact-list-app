@@ -73,9 +73,5 @@ $contacts = $contactRepository->fetchContacts();
     </tbody>
 </table>
 
-<?php if ($action === Actions::SUCCESSFUL_SAVE): ?>
-<script src="/js/contactSaved.js"></script>
-<?php endif; ?>
-
 </body>
 </html>
